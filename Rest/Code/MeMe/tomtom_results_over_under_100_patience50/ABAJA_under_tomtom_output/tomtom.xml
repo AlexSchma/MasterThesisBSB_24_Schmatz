@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<tomtom version="5.5.6" release="Wed Jun 19 13:59:04 2024 -0700">
+  <model>
+    <command_line>tomtom -o tomtom_results_over_under_100_patience50/ABAJA_under_tomtom_output -eps -png -evalue -thresh 0.05 -dist pearson results_over_under_100_patience50/ABAJA_under_meme_output/meme.html ARABD/ArabidopsisDAPv1.meme ARABD/ArabidopsisPBM_20140210.meme</command_line>
+    <distance_measure value="pearson"/>
+    <threshold type="evalue">0.05</threshold>
+    <alphabet name="DNA" like="dna">
+      <letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+      <letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+      <letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+      <letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+      <letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+      <letter id="V" symbol="V" equals="ACG" name="Not T"/>
+      <letter id="H" symbol="H" equals="ACT" name="Not G"/>
+      <letter id="D" symbol="D" equals="AGT" name="Not C"/>
+      <letter id="B" symbol="B" equals="CGT" name="Not A"/>
+      <letter id="M" symbol="M" equals="AC" name="Amino"/>
+      <letter id="R" symbol="R" equals="AG" name="Purine"/>
+      <letter id="W" symbol="W" equals="AT" name="Weak"/>
+      <letter id="S" symbol="S" equals="CG" name="Strong"/>
+      <letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+      <letter id="K" symbol="K" equals="GT" name="Keto"/>
+    </alphabet>
+    <strands>both</strands>
+    <background from="--query--" A="0.2345" C="0.2655" G="0.2655" T="0.2345"/>
+    <host>319ff61c46c5</host>
+    <when>Wed Aug 21 12:27:53 2024</when>
+  </model>
+  <query_dbs>
+    <db source="results_over_under_100_patience50/ABAJA_under_meme_output/meme.html" name="meme.html" loaded="3" excluded="0" last_mod_date="Tue Aug 20 16:49:23 2024"/>
+  </query_dbs>
+  <target_dbs>
+    <db source="ARABD/ArabidopsisDAPv1.meme" name="ArabidopsisDAPv1" loaded="872" excluded="0" last_mod_date="Wed Jan 10 00:02:14 2024"/>
+    <db source="ARABD/ArabidopsisPBM_20140210.meme" name="ArabidopsisPBM_20140210" loaded="113" excluded="0" last_mod_date="Wed Jan 10 00:02:15 2024"/>
+  </target_dbs>
+  <queries>
+    <motif db="0" id="RGRAGGARRRAG" alt="MEME-2" length="12" nsites="497" evalue="3.4e-112">
+      <pos A="0.533139" C="5.34098e-05" G="0.466761" T="4.71736e-05"/>
+      <pos A="0.0503391" C="0.00206501" G="0.945537" T="0.00205877"/>
+      <pos A="0.587454" C="0.0060882" G="0.392328" T="0.0141293"/>
+      <pos A="0.796668" C="5.34098e-05" G="0.199208" T="0.00407036"/>
+      <pos A="0.154946" C="5.34098e-05" G="0.836907" T="0.00809355"/>
+      <pos A="0.299786" C="5.34098e-05" G="0.700114" T="4.71736e-05"/>
+      <pos A="0.832878" C="5.34098e-05" G="0.167022" T="4.71736e-05"/>
+      <pos A="0.376229" C="5.34098e-05" G="0.621658" T="0.00205877"/>
+      <pos A="0.374217" C="5.34098e-05" G="0.625683" T="4.71736e-05"/>
+      <pos A="0.358124" C="0.0060882" G="0.635741" T="4.71736e-05"/>
+      <pos A="0.846959" C="0.00206501" G="0.150928" T="4.71736e-05"/>
+      <pos A="0.323926" C="0.0060882" G="0.669939" T="4.71736e-05"/>
+    </motif>
+    <motif db="0" id="TAGATCTAGWTC" alt="MEME-3" length="12" nsites="395" evalue="3.5e-046">
+      <pos A="5.93521e-05" C="0.126617" G="6.71982e-05" T="0.873256"/>
+      <pos A="0.815043" C="0.012722" G="0.00766028" T="0.164575"/>
+      <pos A="0.0152455" C="0.0456257" G="0.683438" T="0.255691"/>
+      <pos A="0.668244" C="0.0911831" G="0.0532187" T="0.187354"/>
+      <pos A="0.0203072" C="0.0152534" G="0.141803" T="0.822636"/>
+      <pos A="0.0177769" C="0.946663" G="0.0304395" T="0.00512107"/>
+      <pos A="0.0405551" C="0.048156" G="6.71982e-05" T="0.911221"/>
+      <pos A="0.868194" C="0.00512892" G="6.71982e-05" T="0.126609"/>
+      <pos A="0.0405551" C="0.136742" G="0.61257" T="0.210133"/>
+      <pos A="0.311373" C="0.0835901" G="0.0684039" T="0.536633"/>
+      <pos A="0.0759891" C="0.012722" G="0.0253768" T="0.885911"/>
+      <pos A="0.0658657" C="0.599915" G="0.119024" T="0.215195"/>
+    </motif>
+    <motif db="0" id="WTCCTARTYCTT" alt="MEME-1" length="12" nsites="500" evalue="2.7e-169">
+      <pos A="0.38597" C="0.168019" G="0.146024" T="0.299987"/>
+      <pos A="4.68906e-05" C="5.30894e-05" G="0.0120507" T="0.987849"/>
+      <pos A="0.00604569" C="0.885876" G="0.00805149" T="0.100027"/>
+      <pos A="0.0200429" C="0.91387" G="0.0320467" T="0.0340401"/>
+      <pos A="0.112024" C="0.0460439" G="0.0520427" T="0.789889"/>
+      <pos A="0.737899" C="0.204012" G="0.00605189" T="0.0520365"/>
+      <pos A="0.379971" C="0.0440443" G="0.431967" T="0.144018"/>
+      <pos A="0.0340401" C="5.30894e-05" G="5.30894e-05" T="0.965854"/>
+      <pos A="0.104026" C="0.287996" G="0.0340463" T="0.573932"/>
+      <pos A="0.0560357" C="0.685916" G="0.0260479" T="0.232"/>
+      <pos A="0.0680333" C="5.30894e-05" G="5.30894e-05" T="0.931861"/>
+      <pos A="0.0960277" C="0.0760379" G="5.30894e-05" T="0.827881"/>
+    </motif>
+  </queries>
+  <targets>
+    <motif db="0" id="C2C2gata_tnt.GATA12_col_a_m1" alt="GATA12" length="13" nsites="591" evalue="3.1e-907"
+        url="http://neomorph.salk.edu/dap_web/pages/browse_table_aj.php?AGI=GATA12">
+      <pos A="0.307941" C="0.0778657" G="0.42806" T="0.186133"/>
+      <pos A="0.647984" C="0.103242" G="0.0575652" T="0.191208"/>
+      <pos A="0.228427" C="0.0660238" G="0.0694072" T="0.636142"/>
+      <pos A="0.116771" C="0.460204" G="0.0491056" T="0.373918"/>
+      <pos A="3.96718e-05" C="0.60062" G="0.0254216" T="0.373918"/>
+      <pos A="0.847612" C="0.0338802" G="0.118468" T="3.96718e-05"/>
+      <pos A="0.00173139" C="4.49162e-05" G="0.998184" T="3.96718e-05"/>
+      <pos A="0.99987" C="4.49162e-05" G="4.49162e-05" T="3.96718e-05"/>
+      <pos A="0.00173139" C="4.49162e-05" G="4.49162e-05" T="0.998179"/>
+      <pos A="3.96718e-05" C="0.98465" G="4.49162e-05" T="0.0152651"/>
+      <pos A="0.0186495" C="0.299486" G="0.00173663" T="0.680128"/>
+      <pos A="0.458507" C="0.0964756" G="0.387458" T="0.0575599"/>
+      <pos A="0.53802" C="0.0795575" G="0.243659" T="0.138764"/>
+    </motif>
+    <motif db="0" id="C2C2gata_tnt.GATA12_colamp_a_m1" alt="GATA12" length="15" nsites="572" evalue="4.1e-871"
+        url="http://neomorph.salk.edu/dap_web/pages/browse_table_aj.php?AGI=GATA12">
+      <pos A="0.0419917" C="0.377602" G="0.0822" T="0.498206"/>
+      <pos A="0.636294" C="0.0280135" G="0.304189" T="0.0315045"/>
+      <pos A="0.0297558" C="4.6408e-05" G="0.970157" T="4.09894e-05"/>
+      <pos A="0.999866" C="4.6408e-05" G="4.6408e-05" T="4.09894e-05"/>
+      <pos A="4.09894e-05" C="4.6408e-05" G="4.6408e-05" T="0.999866"/>
+      <pos A="4.09894e-05" C="0.999872" G="4.6408e-05" T="4.09894e-05"/>
+      <pos A="4.09894e-05" C="0.136387" G="0.0350053" T="0.828567"/>
+      <pos A="0.361866" C="0.0157777" G="0.585608" T="0.0367476"/>
+      <pos A="0.459751" C="0.0297612" G="0.470244" T="0.040244"/>
+      <pos A="0.639789" C="0.0280135" G="0.0454935" T="0.286704"/>
+      <pos A="0.0979259" C="0.160857" G="0.0874441" T="0.653773"/>
+      <pos A="0.0996736" C="0.451017" G="0.104923" T="0.344387"/>
+      <pos A="0.195811" C="0.195816" G="0.181833" T="0.426539"/>
+      <pos A="0.276217" C="0.110167" G="0.389838" T="0.223778"/>
+      <pos A="0.342638" C="0.136387" G="0.31992" T="0.201055"/>
+    </motif>
+    <motif db="0" id="C2C2gata_tnt.GATA1_colamp_a_m1" alt="GATA1" length="14" nsites="591" evalue="1.5e-835"
+        url="http://neomorph.salk.edu/dap_web/pages/browse_table_aj.php?AGI=GATA1">
+      <pos A="0.314707" C="0.152303" G="0.412835" T="0.120154"/>
+      <pos A="0.588772" C="0.0727906" G="0.292719" T="0.0457169"/>
+      <pos A="0.429747" C="0.0254216" G="0.0609486" T="0.483884"/>
+      <pos A="0.0761688" C="0.36039" G="0.0321885" T="0.531253"/>
+      <pos A="3.96718e-05" C="0.500806" G="0.028805" T="0.470349"/>
+      <pos A="0.60569" C="0.0964756" G="0.297795" T="3.96718e-05"/>
+      <pos A="0.0118817" C="4.49162e-05" G="0.988034" T="3.96718e-05"/>
+      <pos A="0.99987" C="4.49162e-05" G="4.49162e-05" T="3.96718e-05"/>
+      <pos A="3.96718e-05" C="4.49162e-05" G="4.49162e-05" T="0.99987"/>
+      <pos A="3.96718e-05" C="0.998184" G="4.49162e-05" T="0.00173139"/>
+      <pos A="0.022033" C="0.116776" G="0.0558735" T="0.805318"/>
+      <pos A="0.357001" C="0.0778657" G="0.431444" T="0.133689"/>
+      <pos A="0.455124" C="0.135386" G="0.272419" T="0.137072"/>
+      <pos A="0.450049" C="0.106626" G="0.250426" T="0.1929"/>
+    </motif>
+    <motif db="0" id="C2C2gata_tnt.GATA6_col200_a_m1" alt="GATA6" length="13" nsites="417" evalue="1.7e-678"
+        url="http://neomorph.salk.edu/dap_web/pages/browse_table_aj.php?AGI=GATA6">
+      <pos A="0.107944" C="0.381267" G="0.0887714" T="0.422017"/>
+      <pos A="0.937481" C="6.36538e-05" G="0.052809" T="0.00964592"/>
+      <pos A="5.62216e-05" C="6.36538e-05" G="0.999824" T="5.62216e-05"/>
+      <pos A="0.999816" C="6.36538e-05" G="6.36538e-05" T="5.62216e-05"/>
+      <pos A="5.62216e-05" C="6.36538e-05" G="6.36538e-05" T="0.999816"/>
+      <pos A="5.62216e-05" C="0.999824" G="6.36538e-05" T="5.62216e-05"/>
+      <pos A="5.62216e-05" C="0.165492" G="0.0144482" T="0.820004"/>
+      <pos A="0.827196" C="6.36538e-05" G="0.172684" T="5.62216e-05"/>
+      <pos A="0.223025" C="0.136722" G="0.585055" T="0.055199"/>
+      <pos A="0.714513" C="0.119939" G="0.0719884" T="0.0935588"/>
+      <pos A="0.225422" C="0.112747" G="0.0959637" T="0.565868"/>
+      <pos A="0.218229" C="0.38846" G="0.127131" T="0.266179"/>
+      <pos A="0.237409" C="0.280572" G="0.105554" T="0.376465"/>
+    </motif>
+    <motif db="0" id="C2H2_tnt.TF3A_col_a_m1" alt="TF3A" length="19" nsites="600" evalue="2.0e-1680"
+        url="http://neomorph.salk.edu/dap_web/pages/browse_table_aj.php?AGI=TF3A">
+      <pos A="0.0450316" C="0.784913" G="0.013375" T="0.15668"/>
+      <pos A="0.0850249" C="0.566617" G="0.0417043" T="0.306655"/>
+      <pos A="0.0716941" C="0.128356" G="0.0783642" T="0.721586"/>
+      <pos A="0.0416991" C="0.798244" G="0.00837585" T="0.151681"/>
+      <pos A="0.171677" C="0.588279" G="0.0283725" T="0.211671"/>
+      <pos A="0.0883574" C="0.108359" G="0.0283725" T="0.77491"/>
+      <pos A="0.018369" C="0.82324" G="0.0150417" T="0.143348"/>
+      <pos A="0.153347" C="0.671599" G="0.00837585" T="0.166678"/>
+      <pos A="0.106688" C="0.0650334" G="0.0533684" T="0.77491"/>
+      <pos A="0.0533632" C="0.824907" G="0.0183742" T="0.103355"/>
+      <pos A="0.160012" C="0.629939" G="0.031706" T="0.178342"/>
+      <pos A="0.121686" C="0.0467035" G="0.0150417" T="0.81657"/>
+      <pos A="0.0433649" C="0.884897" G="0.00504341" T="0.066695"/>
+      <pos A="0.130017" C="0.696595" G="0.0150417" T="0.158346"/>
+      <pos A="0.0833582" C="0.0533684" G="0.0667001" T="0.796573"/>
+      <pos A="0.0416991" C="0.826573" G="0.013375" T="0.118352"/>
+      <pos A="0.138349" C="0.699928" G="0.0250401" T="0.136683"/>
+      <pos A="0.178342" C="0.0483692" G="0.0567018" T="0.716587"/>
+      <pos A="0.0400324" C="0.858234" G="0.0200409" T="0.0816925"/>
+    </motif>
+  </targets>
+  <matches>
+    <query idx="0">
+      <target idx="4" rc="y" off="7" pv="2.72e-05" ev="2.68e-02" qv="5.34e-02"/>
+    </query>
+    <query idx="1">
+      <target idx="3" rc="n" off="0" pv="1.17e-06" ev="1.15e-03" qv="2.29e-03"/>
+      <target idx="0" rc="y" off="1" pv="1.70e-05" ev="1.67e-02" qv="1.16e-02"/>
+      <target idx="2" rc="y" off="2" pv="2.92e-05" ev="2.88e-02" qv="1.16e-02"/>
+      <target idx="1" rc="n" off="0" pv="2.96e-05" ev="2.91e-02" qv="1.16e-02"/>
+    </query>
+  </matches>
+  <runtime cycles="4380607" seconds="4.381"/>
+</tomtom>

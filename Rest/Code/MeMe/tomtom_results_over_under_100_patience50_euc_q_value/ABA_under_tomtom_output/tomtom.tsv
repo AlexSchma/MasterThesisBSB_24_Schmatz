@@ -1,0 +1,12 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+TCATCCTCATCT	C2C2gata_tnt.ZML1_col_a_m1	3	9.27261e-07	0.000913352	0.0018247	12	TCATCCTCATCT	TCATCATCATCATCA	+
+TCATCCTCATCT	C2C2gata_tnt.ZML2_col_a_m1	2	9.24391e-06	0.00910525	0.00909526	12	TCATCCTCATCT	CATCATCATCATCATCATC	+
+TCATCCTCATCT	C2C2gata_tnt.GATA15_col_b_m1	2	4.86226e-05	0.0478933	0.0318938	12	TCATCCTCATCT	CATCATCATCATCATCATC	+
+TCATCCTCATCC	C2C2gata_tnt.ZML1_col_a_m1	3	8.48517e-07	0.00083579	0.00166633	12	TCATCCTCATCC	TCATCATCATCATCA	+
+TCATCCTCATCC	C2C2gata_tnt.ZML2_col_a_m1	2	1.09739e-05	0.0108093	0.0107754	12	TCATCCTCATCC	CATCATCATCATCATCATC	+
+TCATCCTCATCC	C2C2gata_tnt.GATA15_col_b_m1	2	4.98088e-05	0.0490616	0.0326051	12	TCATCCTCATCC	CATCATCATCATCATCATC	+
+CTCRTCCTCATC	C2C2gata_tnt.ZML1_col_a_m1	-1	6.55274e-06	0.00645445	0.0129089	11	CTCGTCCTCATC	TCATCATCATCATCA	+
+
+# Tomtom (Motif Comparison Tool): Version 5.5.6 compiled on Aug  9 2024 at 02:23:27
+# The format of this file is described at http://localhost:8080/meme_5.5.6/doc/tomtom-output-format.html.
+# tomtom -o tomtom_results_over_under_100_patience50_euc_q_value/ABA_under_tomtom_output -eps -png -thresh 0.05 -dist ed results_over_under_100_patience50/ABA_under_meme_output/meme.html ARABD/ArabidopsisDAPv1.meme ARABD/ArabidopsisPBM_20140210.meme

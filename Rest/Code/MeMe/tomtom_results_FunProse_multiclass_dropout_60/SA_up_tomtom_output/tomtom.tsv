@@ -1,0 +1,6 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+CACGYGTS	BZR_tnt.At4g18890_col_a_m1	2	4.41241e-05	0.0434622	0.0321903	8	CACGCGTC	CGCACGTGTGA	+
+
+# Tomtom (Motif Comparison Tool): Version 5.5.6 compiled on Aug  9 2024 at 02:23:27
+# The format of this file is described at http://localhost:8080/meme_5.5.6/doc/tomtom-output-format.html.
+# tomtom -o tomtom_results_FunProse_multiclass_dropout_60/SA_up_tomtom_output -eps -png -evalue -thresh 0.05 -dist pearson results_FunProse_multiclass_dropout_60/SA_up_meme_output/meme.html ARABD/ArabidopsisDAPv1.meme ARABD/ArabidopsisPBM_20140210.meme

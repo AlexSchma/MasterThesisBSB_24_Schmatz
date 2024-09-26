@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<tomtom version="5.5.6" release="Wed Jun 19 13:59:04 2024 -0700">
+  <model>
+    <command_line>tomtom -o tomtom_results_FunProse_multiclass_dropout_60_euc_q_value/ABA_JA_up_tomtom_output -eps -png -evalue -thresh 0.05 -dist ed results_FunProse_multiclass_dropout_60/ABA_JA_up_meme_output/meme.html ARABD/ArabidopsisDAPv1.meme ARABD/ArabidopsisPBM_20140210.meme</command_line>
+    <distance_measure value="ed"/>
+    <threshold type="evalue">0.05</threshold>
+    <alphabet name="DNA" like="dna">
+      <letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+      <letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+      <letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+      <letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+      <letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+      <letter id="V" symbol="V" equals="ACG" name="Not T"/>
+      <letter id="H" symbol="H" equals="ACT" name="Not G"/>
+      <letter id="D" symbol="D" equals="AGT" name="Not C"/>
+      <letter id="B" symbol="B" equals="CGT" name="Not A"/>
+      <letter id="M" symbol="M" equals="AC" name="Amino"/>
+      <letter id="R" symbol="R" equals="AG" name="Purine"/>
+      <letter id="W" symbol="W" equals="AT" name="Weak"/>
+      <letter id="S" symbol="S" equals="CG" name="Strong"/>
+      <letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+      <letter id="K" symbol="K" equals="GT" name="Keto"/>
+    </alphabet>
+    <strands>both</strands>
+    <background from="--query--" A="0.256" C="0.244" G="0.244" T="0.256"/>
+    <host>0f2fd414606b</host>
+    <when>Wed Aug 28 10:01:09 2024</when>
+  </model>
+  <query_dbs>
+    <db source="results_FunProse_multiclass_dropout_60/ABA_JA_up_meme_output/meme.html" name="meme.html" loaded="3" excluded="0" last_mod_date="Fri Aug 23 09:46:14 2024"/>
+  </query_dbs>
+  <target_dbs>
+    <db source="ARABD/ArabidopsisDAPv1.meme" name="ArabidopsisDAPv1" loaded="872" excluded="0" last_mod_date="Wed Jan 10 00:02:14 2024"/>
+    <db source="ARABD/ArabidopsisPBM_20140210.meme" name="ArabidopsisPBM_20140210" loaded="113" excluded="0" last_mod_date="Wed Jan 10 00:02:15 2024"/>
+  </target_dbs>
+  <queries>
+    <motif db="0" id="ACACGYGT" alt="MEME-1" length="8" nsites="500" evalue="2.5e-338">
+      <pos A="0.861879" C="0.138021" G="4.87902e-05" T="5.11898e-05"/>
+      <pos A="5.11898e-05" C="0.999849" G="4.87902e-05" T="5.11898e-05"/>
+      <pos A="0.999851" C="4.87902e-05" G="4.87902e-05" T="5.11898e-05"/>
+      <pos A="5.11898e-05" C="0.999849" G="4.87902e-05" T="5.11898e-05"/>
+      <pos A="5.11898e-05" C="4.87902e-05" G="0.999849" T="5.11898e-05"/>
+      <pos A="5.11898e-05" C="0.419965" G="4.87902e-05" T="0.579935"/>
+      <pos A="5.11898e-05" C="4.87902e-05" G="0.999849" T="5.11898e-05"/>
+      <pos A="5.11898e-05" C="4.87902e-05" G="4.87902e-05" T="0.999851"/>
+    </motif>
+    <motif db="0" id="CCACGCGT" alt="MEME-2" length="8" nsites="500" evalue="8.8e-274">
+      <pos A="5.11898e-05" C="0.505948" G="0.251998" T="0.242003"/>
+      <pos A="5.11898e-05" C="0.999849" G="4.87902e-05" T="5.11898e-05"/>
+      <pos A="0.999851" C="4.87902e-05" G="4.87902e-05" T="5.11898e-05"/>
+      <pos A="5.11898e-05" C="0.999849" G="4.87902e-05" T="5.11898e-05"/>
+      <pos A="5.11898e-05" C="4.87902e-05" G="0.999849" T="5.11898e-05"/>
+      <pos A="5.11898e-05" C="0.679913" G="4.87902e-05" T="0.319987"/>
+      <pos A="5.11898e-05" C="4.87902e-05" G="0.999849" T="5.11898e-05"/>
+      <pos A="5.11898e-05" C="4.87902e-05" G="4.87902e-05" T="0.999851"/>
+    </motif>
+    <motif db="0" id="GACGCGBS" alt="MEME-3" length="8" nsites="500" evalue="2.1e-177">
+      <pos A="5.11898e-05" C="0.158017" G="0.84188" T="5.11898e-05"/>
+      <pos A="0.999851" C="4.87902e-05" G="4.87902e-05" T="5.11898e-05"/>
+      <pos A="5.11898e-05" C="0.999849" G="4.87902e-05" T="5.11898e-05"/>
+      <pos A="5.11898e-05" C="4.87902e-05" G="0.999849" T="5.11898e-05"/>
+      <pos A="5.11898e-05" C="0.999849" G="4.87902e-05" T="5.11898e-05"/>
+      <pos A="5.11898e-05" C="4.87902e-05" G="0.999849" T="5.11898e-05"/>
+      <pos A="5.11898e-05" C="0.311986" G="0.249999" T="0.437964"/>
+      <pos A="5.11898e-05" C="0.385972" G="0.613926" T="5.11898e-05"/>
+    </motif>
+  </queries>
+  <targets>
+    <motif db="0" id="BES1_tnt.BAM8_col_a_m1" alt="BAM8" length="15" nsites="600" evalue="6.9e-1560"
+        url="http://neomorph.salk.edu/dap_web/pages/browse_table_aj.php?AGI=BAM8">
+      <pos A="0.0567002" C="0.343316" G="0.00837227" T="0.591611"/>
+      <pos A="0.0317044" C="0.831569" G="0.070029" T="0.0666986"/>
+      <pos A="0.694927" C="0.0616974" G="0.231669" T="0.0117077"/>
+      <pos A="4.26596e-05" C="0.998207" G="4.06599e-05" T="0.00170938"/>
+      <pos A="0.998209" C="4.06599e-05" G="0.00170738" T="4.26596e-05"/>
+      <pos A="0.0033751" C="0.996542" G="4.06599e-05" T="4.26596e-05"/>
+      <pos A="4.26596e-05" C="4.06599e-05" G="0.999874" T="4.26596e-05"/>
+      <pos A="4.26596e-05" C="0.0167049" G="4.06599e-05" T="0.983212"/>
+      <pos A="0.021706" C="4.06599e-05" G="0.974878" T="0.0033751"/>
+      <pos A="0.0483676" C="0.40664" G="0.0200373" T="0.524955"/>
+      <pos A="0.140019" C="0.401641" G="0.413305" T="0.0450352"/>
+      <pos A="0.491628" C="0.121687" G="0.155015" T="0.231671"/>
+      <pos A="0.448301" C="0.165013" G="0.205006" T="0.181679"/>
+      <pos A="0.278329" C="0.324987" G="0.16668" T="0.230004"/>
+      <pos A="0.161683" C="0.216672" G="0.18501" T="0.436637"/>
+    </motif>
+    <motif db="0" id="BES1_tnt.BAM8_colamp_a_m1" alt="BAM8" length="15" nsites="590" evalue="3.0e-1431"
+        url="http://neomorph.salk.edu/dap_web/pages/browse_table_aj.php?AGI=BAM8">
+      <pos A="0.352526" C="0.247457" G="0.222038" T="0.177979"/>
+      <pos A="0.255932" C="0.223732" G="0.28135" T="0.238986"/>
+      <pos A="0.113583" C="0.218648" G="0.193229" T="0.474539"/>
+      <pos A="0.213566" C="0.147474" G="0.122055" T="0.516905"/>
+      <pos A="0.0746067" C="0.454201" G="0.294906" T="0.176285"/>
+      <pos A="0.501653" C="4.13489e-05" G="0.489789" T="0.00851695"/>
+      <pos A="4.33825e-05" C="0.955811" G="4.13489e-05" T="0.0441039"/>
+      <pos A="0.999874" C="4.13489e-05" G="4.13489e-05" T="4.33825e-05"/>
+      <pos A="4.33825e-05" C="0.999872" G="4.13489e-05" T="4.33825e-05"/>
+      <pos A="4.33825e-05" C="4.13489e-05" G="0.999872" T="4.33825e-05"/>
+      <pos A="4.33825e-05" C="0.00343077" G="4.13489e-05" T="0.996484"/>
+      <pos A="4.33825e-05" C="4.13489e-05" G="0.999872" T="4.33825e-05"/>
+      <pos A="0.0627448" C="0.137306" G="0.0746047" T="0.725344"/>
+      <pos A="0.0322409" C="0.272876" G="0.672808" T="0.0220736"/>
+      <pos A="0.53724" C="0.0119033" G="0.318631" T="0.132224"/>
+    </motif>
+    <motif db="0" id="BZR_tnt.At1g78700_col_a_m1" alt="At1g78700" length="11" nsites="598" evalue="2.2e-1466"
+        url="http://neomorph.salk.edu/dap_web/pages/browse_table_aj.php?AGI=At1g78700">
+      <pos A="4.28022e-05" C="0.541756" G="0.00672868" T="0.451472"/>
+      <pos A="0.262541" C="0.00171252" G="0.735704" T="4.28022e-05"/>
+      <pos A="4.28022e-05" C="0.999874" G="4.07959e-05" T="4.28022e-05"/>
+      <pos A="0.999876" C="4.07959e-05" G="4.07959e-05" T="4.28022e-05"/>
+      <pos A="4.28022e-05" C="0.999874" G="4.07959e-05" T="4.28022e-05"/>
+      <pos A="4.28022e-05" C="4.07959e-05" G="0.999874" T="4.28022e-05"/>
+      <pos A="0.00338624" C="4.07959e-05" G="4.07959e-05" T="0.996532"/>
+      <pos A="4.28022e-05" C="4.07959e-05" G="0.999874" T="4.28022e-05"/>
+      <pos A="0.0217782" C="0.22074" G="0.108719" T="0.648763"/>
+      <pos A="0.152191" C="0.147173" G="0.610307" T="0.0903287"/>
+      <pos A="0.319387" C="0.199005" G="0.326073" T="0.155535"/>
+    </motif>
+    <motif db="0" id="BZR_tnt.At1g78700_colamp_a_m1" alt="At1g78700" length="15" nsites="140" evalue="5.9e-274"
+        url="http://neomorph.salk.edu/dap_web/pages/browse_table_aj.php?AGI=At1g78700">
+      <pos A="0.157214" C="0.328511" G="0.278546" T="0.235728"/>
+      <pos A="0.050147" C="0.549782" G="0.0430006" T="0.357071"/>
+      <pos A="0.342795" C="0.0358627" G="0.62116" T="0.000182727"/>
+      <pos A="0.000182727" C="0.99946" G="0.000174161" T="0.000182727"/>
+      <pos A="0.999469" C="0.000174161" G="0.000174161" T="0.000182727"/>
+      <pos A="0.000182727" C="0.99946" G="0.000174161" T="0.000182727"/>
+      <pos A="0.000182727" C="0.000174161" G="0.99946" T="0.000182727"/>
+      <pos A="0.000182727" C="0.000174161" G="0.000174161" T="0.999469"/>
+      <pos A="0.000182727" C="0.000174161" G="0.99946" T="0.000182727"/>
+      <pos A="0.0929734" C="0.185756" G="0.0501385" T="0.671132"/>
+      <pos A="0.0715607" C="0.164343" G="0.642572" T="0.121525"/>
+      <pos A="0.26428" C="0.200031" G="0.23572" T="0.299969"/>
+      <pos A="0.428448" C="0.171481" G="0.207169" T="0.192902"/>
+      <pos A="0.121525" C="0.192894" G="0.214307" T="0.471275"/>
+      <pos A="0.150076" C="0.192894" G="0.200031" T="0.456999"/>
+    </motif>
+    <motif db="0" id="BZR_tnt.At4g18890_col_a_m1" alt="At4g18890" length="11" nsites="590" evalue="1.3e-1334"
+        url="http://neomorph.salk.edu/dap_web/pages/browse_table_aj.php?AGI=At4g18890">
+      <pos A="0.00512752" C="0.540628" G="0.07291" T="0.381335"/>
+      <pos A="0.303382" C="0.0474913" G="0.649084" T="4.33825e-05"/>
+      <pos A="4.33825e-05" C="0.998177" G="4.13489e-05" T="0.0017381"/>
+      <pos A="0.999874" C="4.13489e-05" G="4.13489e-05" T="4.33825e-05"/>
+      <pos A="4.33825e-05" C="0.999872" G="4.13489e-05" T="4.33825e-05"/>
+      <pos A="0.0017381" C="4.13489e-05" G="0.998177" T="4.33825e-05"/>
+      <pos A="0.0017381" C="4.13489e-05" G="4.13489e-05" T="0.998179"/>
+      <pos A="4.33825e-05" C="4.13489e-05" G="0.999872" T="4.33825e-05"/>
+      <pos A="0.0864697" C="0.125444" G="0.101719" T="0.686368"/>
+      <pos A="0.101721" C="0.237289" G="0.572825" T="0.0881644"/>
+      <pos A="0.40506" C="0.154252" G="0.30338" T="0.137308"/>
+    </motif>
+    <motif db="0" id="BZR_tnt.At4g18890_colamp_a_m1" alt="At4g18890" length="11" nsites="304" evalue="2.3e-688"
+        url="http://neomorph.salk.edu/dap_web/pages/browse_table_aj.php?AGI=At4g18890">
+      <pos A="0.0198147" C="0.513069" G="0.0855781" T="0.381538"/>
+      <pos A="0.27302" C="0.00336816" G="0.723526" T="8.41828e-05"/>
+      <pos A="8.41828e-05" C="0.996463" G="8.02368e-05" T="0.0033721"/>
+      <pos A="0.999755" C="8.02368e-05" G="8.02368e-05" T="8.41828e-05"/>
+      <pos A="8.41828e-05" C="0.999751" G="8.02368e-05" T="8.41828e-05"/>
+      <pos A="8.41828e-05" C="8.02368e-05" G="0.999751" T="8.41828e-05"/>
+      <pos A="8.41828e-05" C="8.02368e-05" G="8.02368e-05" T="0.999755"/>
+      <pos A="8.41828e-05" C="8.02368e-05" G="0.999751" T="8.41828e-05"/>
+      <pos A="0.0395452" C="0.180942" G="0.115174" T="0.66434"/>
+      <pos A="0.118466" C="0.14477" G="0.667624" T="0.0691405"/>
+      <pos A="0.414422" C="0.134904" G="0.328919" T="0.121755"/>
+    </motif>
+    <motif db="0" id="BZR_tnt.At4g36780_col_a_m1" alt="At4g36780" length="11" nsites="599" evalue="2.9e-1569"
+        url="http://neomorph.salk.edu/dap_web/pages/browse_table_aj.php?AGI=At4g36780">
+      <pos A="0.138584" C="0.307168" G="0.171965" T="0.382283"/>
+      <pos A="0.0601327" C="0.691077" G="0.110206" T="0.138584"/>
+      <pos A="0.677726" C="0.120221" G="0.176973" T="0.0250806"/>
+      <pos A="4.27308e-05" C="0.999874" G="4.07278e-05" T="4.27308e-05"/>
+      <pos A="0.998207" C="4.07278e-05" G="4.07278e-05" T="0.00171145"/>
+      <pos A="4.27308e-05" C="0.999874" G="4.07278e-05" T="4.27308e-05"/>
+      <pos A="4.27308e-05" C="4.07278e-05" G="0.999874" T="4.27308e-05"/>
+      <pos A="4.27308e-05" C="4.07278e-05" G="4.07278e-05" T="0.999876"/>
+      <pos A="4.27308e-05" C="4.07278e-05" G="0.999874" T="4.27308e-05"/>
+      <pos A="4.27308e-05" C="0.679393" G="0.00170945" T="0.318855"/>
+      <pos A="0.390629" C="4.07278e-05" G="0.609288" T="4.27308e-05"/>
+    </motif>
+    <motif db="0" id="BZR_tnt.At4g36780_colamp_a_m1" alt="At4g36780" length="14" nsites="236" evalue="1.4e-558"
+        url="http://neomorph.salk.edu/dap_web/pages/browse_table_aj.php?AGI=At4g36780">
+      <pos A="0.228826" C="0.211878" G="0.110226" T="0.449071"/>
+      <pos A="0.0424635" C="0.686254" G="0.110226" T="0.161057"/>
+      <pos A="0.512603" C="0.0509288" G="0.415181" T="0.0212855"/>
+      <pos A="0.000108429" C="0.982738" G="0.000103346" T="0.0170502"/>
+      <pos A="0.999685" C="0.000103346" G="0.000103346" T="0.000108429"/>
+      <pos A="0.000108429" C="0.99968" G="0.000103346" T="0.000108429"/>
+      <pos A="0.000108429" C="0.000103346" G="0.99968" T="0.000108429"/>
+      <pos A="0.000108429" C="0.000103346" G="0.000103346" T="0.999685"/>
+      <pos A="0.000108429" C="0.00857476" G="0.986973" T="0.00434363"/>
+      <pos A="0.000108429" C="0.44483" G="0.000103346" T="0.554958"/>
+      <pos A="0.283886" C="0.000103346" G="0.703195" T="0.012815"/>
+      <pos A="0.152586" C="0.415181" G="0.317766" T="0.114467"/>
+      <pos A="0.385538" C="0.245762" G="0.194936" T="0.173764"/>
+      <pos A="0.0975252" C="0.165287" G="0.165287" T="0.5719"/>
+    </motif>
+    <motif db="0" id="NAC_tnt.ANAC047_colamp_a_d1" alt="ANAC047" length="5" nsites="624" evalue="2.0e-058"
+        url="http://neomorph.salk.edu/dap_web/pages/browse_table_aj.php?AGI=ANAC047">
+      <pos A="4.10191e-05" C="0.999879" G="3.90963e-05" T="4.10191e-05"/>
+      <pos A="0.999881" C="3.90963e-05" G="3.90963e-05" T="4.10191e-05"/>
+      <pos A="4.10191e-05" C="0.999879" G="3.90963e-05" T="4.10191e-05"/>
+      <pos A="4.10191e-05" C="3.90963e-05" G="0.999879" T="4.10191e-05"/>
+      <pos A="4.10191e-05" C="0.224362" G="0.21635" T="0.559246"/>
+    </motif>
+  </targets>
+  <matches>
+    <query idx="0">
+      <target idx="0" rc="n" off="2" pv="1.85e-05" ev="1.82e-02" qv="6.37e-03"/>
+      <target idx="1" rc="y" off="2" pv="2.03e-05" ev="2.00e-02" qv="6.37e-03"/>
+      <target idx="4" rc="y" off="2" pv="2.63e-05" ev="2.59e-02" qv="6.37e-03"/>
+      <target idx="6" rc="n" off="2" pv="2.87e-05" ev="2.83e-02" qv="6.37e-03"/>
+      <target idx="8" rc="n" off="-1" pv="3.32e-05" ev="3.27e-02" qv="6.37e-03"/>
+      <target idx="5" rc="y" off="2" pv="4.07e-05" ev="4.00e-02" qv="6.37e-03"/>
+      <target idx="2" rc="y" off="2" pv="4.82e-05" ev="4.75e-02" qv="6.37e-03"/>
+      <target idx="7" rc="n" off="2" pv="4.85e-05" ev="4.77e-02" qv="6.37e-03"/>
+      <target idx="3" rc="y" off="5" pv="5.04e-05" ev="4.97e-02" qv="6.37e-03"/>
+    </query>
+  </matches>
+  <runtime cycles="4636435" seconds="4.636"/>
+</tomtom>

@@ -1,0 +1,14 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+CACGYGTS	BZR_tnt.At4g18890_col_a_m1	2	5.71752e-06	0.00563175	0.00439305	8	CACGCGTC	CGCACGTGTGA	+
+CACGYGTS	BES1_tnt.BAM8_colamp_a_m1	6	1.07454e-05	0.0105842	0.00439305	8	CACGCGTC	AGTTCACACGTGTGA	+
+CACGYGTS	BZR_tnt.At1g78700_col_a_m1	2	1.26905e-05	0.0125001	0.00439305	8	CACGCGTC	CGCACGTGTGG	+
+CACGYGTS	NAC_tnt.ANAC047_colamp_a_d1	0	1.35132e-05	0.0133105	0.00439305	5	CACGCGTC	CACGT	+
+CACGYGTS	BZR_tnt.At4g18890_colamp_a_m1	2	1.39469e-05	0.0137377	0.00439305	8	CACGCGTC	CGCACGTGTGA	+
+CACGYGTS	BZR_tnt.At4g36780_col_a_m1	2	1.39469e-05	0.0137377	0.00439305	8	CACGCGTC	CGCACGTGTGA	-
+CACGYGTS	BES1_tnt.BAM8_col_a_m1	3	1.95457e-05	0.0192525	0.00461743	8	CACGCGTC	TCACACGTGTGAACT	+
+CACGYGTS	BZR_tnt.At1g78700_colamp_a_m1	3	1.95457e-05	0.0192525	0.00461743	8	CACGCGTC	CCGCACGTGTGTATT	+
+TTTTTTTWWTWT	REM_tnt.REM19_col_a_m1	0	3.29707e-05	0.0324762	0.0468891	12	TTTTTTTAATTT	TTTTTTTTTTTTTTT	-
+
+# Tomtom (Motif Comparison Tool): Version 5.5.6 compiled on Aug  9 2024 at 02:23:27
+# The format of this file is described at http://localhost:8080/meme_5.5.6/doc/tomtom-output-format.html.
+# tomtom -o tomtom_results_FunProse_multiclass_dropout_60_euc_q_value/SA_up_tomtom_output -eps -png -evalue -thresh 0.05 -dist ed results_FunProse_multiclass_dropout_60/SA_up_meme_output/meme.html ARABD/ArabidopsisDAPv1.meme ARABD/ArabidopsisPBM_20140210.meme

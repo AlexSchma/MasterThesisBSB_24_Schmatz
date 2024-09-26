@@ -1,0 +1,11 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+CSCACGYSCVCS	PIF4	-1	1.13427e-05	0.0111725	0.00629761	8	CGCACGCGCGCC	GCACGTGC	+
+CSCACGYSCVCS	PIF5	-1	1.30181e-05	0.0128229	0.00629761	8	CGCACGCGCGCC	GCACGTGC	+
+CSCACGYSCVCS	MYC3	-1	2.45059e-05	0.0241383	0.00662775	8	CGCACGCGCGCC	GCACGTGC	+
+CSCACGYSCVCS	MYC2	-1	2.75966e-05	0.0271826	0.00662775	8	CGCACGCGCGCC	GCACGTGC	+
+CSCACGYSCVCS	BZR_tnt.At4g36780_colamp_a_m1	1	3.08264e-05	0.030364	0.00662775	12	CGCACGCGCGCC	TCACACGTGTGCAT	+
+CSCACGYSCVCS	MYC4	-1	4.30463e-05	0.0424006	0.00832956	8	CGCACGCGCGCC	ACACGTGC	+
+
+# Tomtom (Motif Comparison Tool): Version 5.5.6 compiled on Aug  9 2024 at 02:23:27
+# The format of this file is described at http://localhost:8080/meme_5.5.6/doc/tomtom-output-format.html.
+# tomtom -o tomtom_results_over_under_100_patience50/SAJA_under_tomtom_output -eps -png -evalue -thresh 0.05 -dist pearson results_over_under_100_patience50/SAJA_under_meme_output/meme.html ARABD/ArabidopsisDAPv1.meme ARABD/ArabidopsisPBM_20140210.meme

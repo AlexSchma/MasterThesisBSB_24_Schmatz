@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<tomtom version="5.5.6" release="Wed Jun 19 13:59:04 2024 -0700">
+  <model>
+    <command_line>tomtom -o tomtom_results_over_under_100_patience50/SAJA_under_tomtom_output -eps -png -evalue -thresh 0.05 -dist pearson results_over_under_100_patience50/SAJA_under_meme_output/meme.html ARABD/ArabidopsisDAPv1.meme ARABD/ArabidopsisPBM_20140210.meme</command_line>
+    <distance_measure value="pearson"/>
+    <threshold type="evalue">0.05</threshold>
+    <alphabet name="DNA" like="dna">
+      <letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+      <letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+      <letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+      <letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+      <letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+      <letter id="V" symbol="V" equals="ACG" name="Not T"/>
+      <letter id="H" symbol="H" equals="ACT" name="Not G"/>
+      <letter id="D" symbol="D" equals="AGT" name="Not C"/>
+      <letter id="B" symbol="B" equals="CGT" name="Not A"/>
+      <letter id="M" symbol="M" equals="AC" name="Amino"/>
+      <letter id="R" symbol="R" equals="AG" name="Purine"/>
+      <letter id="W" symbol="W" equals="AT" name="Weak"/>
+      <letter id="S" symbol="S" equals="CG" name="Strong"/>
+      <letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+      <letter id="K" symbol="K" equals="GT" name="Keto"/>
+    </alphabet>
+    <strands>both</strands>
+    <background from="--query--" A="0.258" C="0.242" G="0.242" T="0.258"/>
+    <host>319ff61c46c5</host>
+    <when>Wed Aug 21 12:28:24 2024</when>
+  </model>
+  <query_dbs>
+    <db source="results_over_under_100_patience50/SAJA_under_meme_output/meme.html" name="meme.html" loaded="3" excluded="0" last_mod_date="Wed Aug 21 08:23:09 2024"/>
+  </query_dbs>
+  <target_dbs>
+    <db source="ARABD/ArabidopsisDAPv1.meme" name="ArabidopsisDAPv1" loaded="872" excluded="0" last_mod_date="Wed Jan 10 00:02:14 2024"/>
+    <db source="ARABD/ArabidopsisPBM_20140210.meme" name="ArabidopsisPBM_20140210" loaded="113" excluded="0" last_mod_date="Wed Jan 10 00:02:15 2024"/>
+  </target_dbs>
+  <queries>
+    <motif db="0" id="AAMTGCTACTA" alt="MEME-3" length="11" nsites="500" evalue="8.2e-368">
+      <pos A="0.653921" C="0.00604719" G="0.160016" T="0.180016"/>
+      <pos A="0.867878" C="4.83903e-05" G="0.132022" T="5.15897e-05"/>
+      <pos A="0.475956" C="0.503948" G="4.83903e-05" T="0.0200476"/>
+      <pos A="5.15897e-05" C="4.83903e-05" G="4.83903e-05" T="0.999852"/>
+      <pos A="0.204011" C="4.83903e-05" G="0.795889" T="5.15897e-05"/>
+      <pos A="5.15897e-05" C="0.999848" G="4.83903e-05" T="5.15897e-05"/>
+      <pos A="5.15897e-05" C="4.83903e-05" G="0.212006" T="0.787894"/>
+      <pos A="0.917868" C="4.83903e-05" G="0.082032" T="5.15897e-05"/>
+      <pos A="0.0240468" C="0.975853" G="4.83903e-05" T="5.15897e-05"/>
+      <pos A="5.15897e-05" C="4.83903e-05" G="0.14402" T="0.85588"/>
+      <pos A="0.753901" C="4.83903e-05" G="0.245999" T="5.15897e-05"/>
+    </motif>
+    <motif db="0" id="CACGTCCRCVCG" alt="MEME-1" length="12" nsites="500" evalue="4.8e-741">
+      <pos A="5.15897e-05" C="0.999848" G="4.83903e-05" T="5.15897e-05"/>
+      <pos A="0.995852" C="4.83903e-05" G="0.00404759" T="5.15897e-05"/>
+      <pos A="5.15897e-05" C="0.999848" G="4.83903e-05" T="5.15897e-05"/>
+      <pos A="5.15897e-05" C="4.83903e-05" G="0.999848" T="5.15897e-05"/>
+      <pos A="5.15897e-05" C="0.305987" G="4.83903e-05" T="0.693913"/>
+      <pos A="5.15897e-05" C="0.69391" G="0.305987" T="5.15897e-05"/>
+      <pos A="5.15897e-05" C="0.999848" G="4.83903e-05" T="5.15897e-05"/>
+      <pos A="0.337984" C="0.148019" G="0.513946" T="5.15897e-05"/>
+      <pos A="5.15897e-05" C="0.999848" G="4.83903e-05" T="5.15897e-05"/>
+      <pos A="0.421967" C="0.273994" G="0.303988" T="5.15897e-05"/>
+      <pos A="5.15897e-05" C="0.999848" G="4.83903e-05" T="5.15897e-05"/>
+      <pos A="5.15897e-05" C="0.166015" G="0.833882" T="5.15897e-05"/>
+    </motif>
+    <motif db="0" id="CSCACGYSCVCS" alt="MEME-2" length="12" nsites="500" evalue="1.6e-424">
+      <pos A="5.15897e-05" C="0.94186" G="0.0240436" T="0.0340448"/>
+      <pos A="0.168018" C="0.361976" G="0.469954" T="5.15897e-05"/>
+      <pos A="5.15897e-05" C="0.999848" G="4.83903e-05" T="5.15897e-05"/>
+      <pos A="0.693913" C="0.104028" G="0.202008" T="5.15897e-05"/>
+      <pos A="5.15897e-05" C="0.999848" G="4.83903e-05" T="5.15897e-05"/>
+      <pos A="5.15897e-05" C="4.83903e-05" G="0.999848" T="5.15897e-05"/>
+      <pos A="5.15897e-05" C="0.565935" G="4.83903e-05" T="0.433965"/>
+      <pos A="0.0320452" C="0.459956" G="0.507947" T="5.15897e-05"/>
+      <pos A="5.15897e-05" C="0.999848" G="4.83903e-05" T="5.15897e-05"/>
+      <pos A="0.248002" C="0.337981" G="0.399968" T="0.0140488"/>
+      <pos A="5.15897e-05" C="0.999848" G="4.83903e-05" T="5.15897e-05"/>
+      <pos A="0.0320452" C="0.587931" G="0.379972" T="5.15897e-05"/>
+    </motif>
+  </queries>
+  <targets>
+    <motif db="0" id="BZR_tnt.At4g36780_colamp_a_m1" alt="At4g36780" length="14" nsites="236" evalue="1.4e-558"
+        url="http://neomorph.salk.edu/dap_web/pages/browse_table_aj.php?AGI=At4g36780">
+      <pos A="0.228826" C="0.211877" G="0.110225" T="0.449072"/>
+      <pos A="0.0424643" C="0.686253" G="0.110225" T="0.161058"/>
+      <pos A="0.512604" C="0.050928" G="0.415181" T="0.0212863"/>
+      <pos A="0.000109276" C="0.982737" G="0.000102499" T="0.0170511"/>
+      <pos A="0.999686" C="0.000102499" G="0.000102499" T="0.000109276"/>
+      <pos A="0.000109276" C="0.999679" G="0.000102499" T="0.000109276"/>
+      <pos A="0.000109276" C="0.000102499" G="0.999679" T="0.000109276"/>
+      <pos A="0.000109276" C="0.000102499" G="0.000102499" T="0.999686"/>
+      <pos A="0.000109276" C="0.00857391" G="0.986972" T="0.00434448"/>
+      <pos A="0.000109276" C="0.444829" G="0.000102499" T="0.554959"/>
+      <pos A="0.283887" C="0.000102499" G="0.703195" T="0.0128159"/>
+      <pos A="0.152587" C="0.415181" G="0.317765" T="0.114468"/>
+      <pos A="0.385539" C="0.245761" G="0.194935" T="0.173765"/>
+      <pos A="0.097526" C="0.165287" G="0.165287" T="0.571901"/>
+    </motif>
+    <motif db="1" id="MYC2" alt="MYC2" length="8" nsites="20"
+        url="http://floresta.eead.csic.es/footprintdb/index.php?db=ArabidopsisPBM:20140210&amp;motif=MYC2">
+      <pos A="0.248945" C="0.0993134" G="0.599214" T="0.0525274"/>
+      <pos A="0.0862587" C="0.908169" G="0.00239801" T="0.00317413"/>
+      <pos A="0.964866" C="0.00279602" G="0.0195124" T="0.0128259"/>
+      <pos A="0.00158209" C="0.845169" G="0.00578109" T="0.147468"/>
+      <pos A="0.147468" C="0.00578109" G="0.845169" T="0.00158209"/>
+      <pos A="0.0128259" C="0.0195124" G="0.00279602" T="0.964866"/>
+      <pos A="0.00317413" C="0.00239801" G="0.908169" T="0.0862587"/>
+      <pos A="0.0525274" C="0.599214" G="0.0993134" T="0.248945"/>
+    </motif>
+    <motif db="1" id="MYC3" alt="MYC3" length="8" nsites="20"
+        url="http://floresta.eead.csic.es/footprintdb/index.php?db=ArabidopsisPBM:20140210&amp;motif=MYC3">
+      <pos A="0.247876" C="0.27566" G="0.402935" T="0.0735294"/>
+      <pos A="0.105562" C="0.89006" G="0.0019005" T="0.00247761"/>
+      <pos A="0.966756" C="0.00170149" G="0.0193134" T="0.0122289"/>
+      <pos A="0.00158209" C="0.834537" G="0.00319403" T="0.160687"/>
+      <pos A="0.160687" C="0.00319403" G="0.834537" T="0.00158209"/>
+      <pos A="0.0122289" C="0.0193134" G="0.00170149" T="0.966756"/>
+      <pos A="0.00247761" C="0.0019005" G="0.89006" T="0.105562"/>
+      <pos A="0.0735294" C="0.402935" G="0.27566" T="0.247876"/>
+    </motif>
+    <motif db="1" id="MYC4" alt="MYC4" length="8" nsites="20"
+        url="http://floresta.eead.csic.es/footprintdb/index.php?db=ArabidopsisPBM:20140210&amp;motif=MYC4">
+      <pos A="0.381284" C="0.180308" G="0.359612" T="0.078796"/>
+      <pos A="0.0470547" C="0.948567" G="0.00219901" T="0.0021791"/>
+      <pos A="0.987652" C="0.00239801" G="0.00369154" T="0.00625871"/>
+      <pos A="0.00178109" C="0.933735" G="0.00239801" T="0.0620856"/>
+      <pos A="0.0208876" C="0.00229851" G="0.975033" T="0.00178109"/>
+      <pos A="0.00506468" C="0.00657711" G="0.00170149" T="0.986657"/>
+      <pos A="0.0021791" C="0.002" G="0.97752" T="0.0183005"/>
+      <pos A="0.0256617" C="0.716328" G="0.0843881" T="0.173622"/>
+    </motif>
+    <motif db="1" id="PIF4" alt="PIF4" length="8" nsites="20"
+        url="http://floresta.eead.csic.es/footprintdb/index.php?db=ArabidopsisPBM:20140210&amp;motif=PIF4">
+      <pos A="0.0430706" C="0.0945284" G="0.828584" T="0.0338179"/>
+      <pos A="0.0278507" C="0.964587" G="0.00349254" T="0.00406965"/>
+      <pos A="0.901781" C="0.00279602" G="0.0865771" T="0.00884577"/>
+      <pos A="0.0018806" C="0.923386" G="0.0164299" T="0.0583045"/>
+      <pos A="0.0583045" C="0.0164299" G="0.923386" T="0.0018806"/>
+      <pos A="0.00884577" C="0.0865771" G="0.00279602" T="0.901781"/>
+      <pos A="0.00406965" C="0.00349254" G="0.964587" T="0.0278507"/>
+      <pos A="0.0338179" C="0.828584" G="0.0945284" T="0.0430706"/>
+    </motif>
+    <motif db="1" id="PIF5" alt="PIF5" length="8" nsites="20"
+        url="http://floresta.eead.csic.es/footprintdb/index.php?db=ArabidopsisPBM:20140210&amp;motif=PIF5">
+      <pos A="0.0405871" C="0.193741" G="0.725881" T="0.039791"/>
+      <pos A="0.019992" C="0.928759" G="0.0379244" T="0.0133244"/>
+      <pos A="0.888448" C="0.0535423" G="0.0201095" T="0.0379005"/>
+      <pos A="0.0231741" C="0.886876" G="0.0721493" T="0.017801"/>
+      <pos A="0.017801" C="0.0721493" G="0.886876" T="0.0231741"/>
+      <pos A="0.0379005" C="0.0201095" G="0.0535423" T="0.888448"/>
+      <pos A="0.0133244" C="0.0379244" G="0.928759" T="0.019992"/>
+      <pos A="0.039791" C="0.725881" G="0.193741" T="0.0405871"/>
+    </motif>
+  </targets>
+  <matches>
+    <query idx="2">
+      <target idx="4" rc="n" off="-1" pv="1.13e-05" ev="1.12e-02" qv="6.30e-03"/>
+      <target idx="5" rc="n" off="-1" pv="1.30e-05" ev="1.28e-02" qv="6.30e-03"/>
+      <target idx="2" rc="n" off="-1" pv="2.45e-05" ev="2.41e-02" qv="6.63e-03"/>
+      <target idx="1" rc="n" off="-1" pv="2.76e-05" ev="2.72e-02" qv="6.63e-03"/>
+      <target idx="0" rc="n" off="1" pv="3.08e-05" ev="3.04e-02" qv="6.63e-03"/>
+      <target idx="3" rc="n" off="-1" pv="4.30e-05" ev="4.24e-02" qv="8.33e-03"/>
+    </query>
+  </matches>
+  <runtime cycles="4418773" seconds="4.419"/>
+</tomtom>
